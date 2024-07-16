@@ -1,4 +1,4 @@
-# HR_analytics
+# HR Analytics: Insights for Employee Wellness
 
 ## Table of Contents 
 - [Project Overview](#project-overview)
@@ -41,19 +41,28 @@ EDA involved exploring the data to answer questions such as:
 
 ### Data Analysis 
 ---
-- Utilized VLOOKUP and advanced Excel functions for data cleaning.
-- Ensured data accuracy and consistency for reliable analysis.
-- Created pivot tables for data analysis.
-- Developed an interactive dashboard with pivot charts and slicers.
+Joined Tables: Combined Absenteeism,Reasons, and Compensation tables using SQL joins.
+Aggregate Functions: Calculated average wage increases with functions like AVG.
+CASE Functions: Categorized data using CASE statements to identify healthy non-smoking individuals.
+Data Filtering: Applied filters to isolate data for healthy non-smokers.
+Query Optimization: Enhanced performance by indexing and selecting relevant columns.
+Power BI Integration: Connected the optimized SQL query to Power BI to visualize outcomes and insights.
 
 ### Results
 ---
-- Women accounted for 64% of total sales, with men comprising 36%.
-- Monthly orders exhibited a steady decline throughout the year, hitting a low by year-end after an initial rise.
-- Top 5 sales regions were identified, indicating regional preferences and market dominance.
-- Adults, particularly those in the age range 30-49, made the highest number of purchases compared to younger and senior demographics.
+Compensation Increase: The compensation rate increased by $0.68 per hour, amounting to $1,414.40 increase per year for non-smokers, within a budget of $983,221.
+Highest Absenteeism: 3 individuals had the highest absenteeism rates.
+Weekly Absenteeism: Across all 5 days of the week, the sum of absenteeism time in hours ranged from 553 to 1489.
+Percentage Contribution: The 3 individuals accounted for 14.93% of the total absenteeism time in hours.
+Monthly and Weekly Analysis: Analyzed absenteeism by month and by day of the week.
+Reasons for Absenteeism: Identified reasons for taking leave.
+
 
 ### Recommendations
 ---
-- Utilize historical sales data to forecast future trends and plan marketing strategies and inventory purchases accordingly. 
-- This proactive approach can help mitigate the impact of seasonal fluctuations in demand.
+- Focus on high absenteeism individuals with personalized wellness programs.
+- Adjust wage increases based on performance and health metrics.
+- Investigate and address the causes of high absenteeism on specific days and months.
+- Consider flexible scheduling or remote work options to reduce absenteeism.
+- Implement flexible work policies to accommodate employee needs.
+
